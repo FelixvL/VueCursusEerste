@@ -18,7 +18,7 @@ export default{
     },
     mounted(){
         this.header = 'hoi'
-        ophogen()
+        this.ophogen()
     },
     methods:{
         gelaagd(){
@@ -52,5 +52,6 @@ export default{
     </ul>
     <h2>{{uiterobject.innerobject.tellertje}}</h2>
     <div v-for="soep in uiterobject.lijst"><h1>yes</h1><span>{{soep}}</span></div>
+    <hr><hr><hr>
  </div>
 </template>
