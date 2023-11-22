@@ -10,13 +10,13 @@ import IIfElseEd from './components/IIfElseEd.vue'
 
 <template>
       <IIfElseEd />
+<!--
       <HListRendering />
       <GTemplateTrials />
       <FelixDerdeB />
       <FelixDerde />
       <FelixTweede />
       <FelixEerste />
-<!--
 
       
 -->
