@@ -6,11 +6,16 @@ import FelixDerdeB from './components/FelixDerdeB.vue'
 import GTemplateTrials from './components/GTemplateTrials.vue'
 import HListRendering from './components/HListRendering.vue'
 import IIfElseEd from './components/IIfElseEd.vue'
+import JEvents from './components/JEvents.vue'
+import KEventsSelf from './components/KEventsSelf.vue'
 </script>
 
 <template>
+      <KEventsSelf />
+<!-- 
+      <JEvents />
+
       <IIfElseEd />
-<!--
       <HListRendering />
       <GTemplateTrials />
       <FelixDerdeB />
