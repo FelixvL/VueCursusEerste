@@ -1,6 +1,7 @@
 <script setup>
 import { items } from "./movies.json";
 import MovieOnderdeel from './components/MovieOnderdeel.vue'
+import MovieFormulier from './components/MovieFormulier.vue'
 import { reactive } from 'vue'
 /*
  This is an Icon that you can use to represent the stars if you like
@@ -19,6 +20,7 @@ const films = reactive(items);
 </style>
 <template>
   <!-- This is where your template goes	-->
+  <MovieFormulier  :defilmen="films"/>
   <div class="flex-container">
       <MovieOnderdeel v-for="(item, index) in films" :key="item.id" :defilm="item" :index="index"/>
   </div>
