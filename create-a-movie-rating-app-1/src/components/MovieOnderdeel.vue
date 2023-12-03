@@ -3,7 +3,11 @@ defineProps(['defilm'])
 function doen(i, tebewerkenfilm){
     console.log(i)
     console.log(tebewerkenfilm)
-    tebewerkenfilm.rating = i
+    if(tebewerkenfilm.rating == i){
+      alert("al gestemd");
+    }else{
+      tebewerkenfilm.rating = i
+    }
     console.log("we gaan doen");
 }
 </script>
