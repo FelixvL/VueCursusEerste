@@ -8,11 +8,18 @@ import HListRendering from './components/HListRendering.vue'
 import IIfElseEd from './components/IIfElseEd.vue'
 import JEvents from './components/JEvents.vue'
 import KEventsSelf from './components/KEventsSelf.vue'
+import MClassAndStyle from './components/MClassAndStyle.vue'
+import NClassAndStyle from './components/NClassAndStyle.vue'
+import OFormInput from './components/OFormInput.vue'
+
 </script>
 
 <template>
-      <KEventsSelf />
+      <OFormInput />
 <!-- 
+      <NClassAndStyle/>
+      <MClassAndStyle/>
+      <KEventsSelf />
       <JEvents />
 
       <IIfElseEd />
